@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(41, 222, 222);
+}
+
+.tabla{
+    text-align: center;
+    border-radius: 10px;
+    width: 70%;
+    margin-left:190px;
+    margin-top: 200px;
+    border-width: 3px; 
+    border-style: dashed;
+    border-color: rgb(255, 0, 170);
+}
+
+thead{
+    background-color: rgb(223, 208, 74);
+}
+
+tbody{
+    background-color: ghostwhite;
+}
