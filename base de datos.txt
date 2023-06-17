@@ -1,0 +1,20 @@
+CREATE DATABASE Final_0907_23_13067;
+
+USE Final_0907_23_13067;
+
+CREATE TABLE Productos(
+codigo int (100),
+nombre varchar(100),
+precio varchar(100),
+existencia varchar (100)
+);
+
+INSERT INTO Productos (codigo, nombre, precio, existencia)
+VALUES ('01234', 'Pantalon de lona', '300', '1000'),
+	   ('01986', 'Sueter de lana', '150', '400'),
+       ('01542', 'Gorros de invierno', '50', '200'),
+       ('01764', 'Blusas de dama', '100', '250'),
+       ('01506', 'Camisa', '200', '1000');
+       
+SELECT*FROM Productos; 
+       
